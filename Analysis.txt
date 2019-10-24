@@ -1,0 +1,37 @@
+
+
+
+
+Observations :
+1. Below data tells about the area and year where rainfall exceeded level limits.
+* 2004 and 2017 : heavy rainfall in all regions
+* 2005 : heavy rainfall in Cholavaram, Chembarambakkam and Poondi
+* 2015 : heavy rainfall in Redhills
+* 2018 : heavy rainfall in Poondi
+2. For Poondi region, maximum rainfall occured for 8 days in August, 16 days in September, 6 days in October
+	For Chembarambakkam region, maximum rainfall occured for 9 days in May, July and August, 25 days in September, 17 days in October
+	For Cholavaram region, maximum rainfall occured for 7 days in July and August, 25 days in September, 6 days in June, 17 days in October
+	For Redhills region, maximum rainfall occured for 11 days in August, 16 days in September, 20 days in October
+
+3. Here we have trained our model to predict weather we have to take precaution of reservoir level, handling depending on the month and it's level, rainfall parameters
+
+
+
+
+Conclusion : 
+
+1. KNN(accuracy = 0.98) is giving the best result for our dataset(taking only rainfall_level csv file) ,ie, to predict weather to take precation for exceeded rainfall
+2. Decision Tree(accuracy = 0.99) is giving the best result for our dataset(taking only reservoir_level and reservoir_rainfall csv file) ,ie, to predict weather to take precation for exceeded rainfall
+3. We used Decision Tree Classifier to get the results with tuned parameters that gave us the accuracy of 0.990265, AUC = 0.814
+
+
+
+
+
+
+
+
+
+
+
+
